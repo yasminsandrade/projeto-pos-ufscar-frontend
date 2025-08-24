@@ -1,0 +1,15 @@
+.product-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+    width: 50vw;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #1D3557; 
+    border-radius: 0.25rem;
+    background-color: #FAFAFA;
+}

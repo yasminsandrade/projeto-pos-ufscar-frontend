@@ -1,0 +1,22 @@
+.product-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-results {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+  margin: 10rem;
+}

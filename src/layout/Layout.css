@@ -1,0 +1,46 @@
+.layout {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.layout-header {
+	background-color: #233D58;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	color: #FAFAFA;
+}
+
+.layout-section {
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+
+	>aside {
+		width: 15%;
+		background-color: #457B9D;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 1rem;
+		padding: 1rem;
+	}
+
+	>main {
+		flex: 1;
+		width: 85%;
+		overflow: auto;
+		padding: 1rem;
+	}
+}
+
+.layout-button {
+	width: 80%;
+	background-color: #1D3557;
+	color: #FAFAFA;
+}

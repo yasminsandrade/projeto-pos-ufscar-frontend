@@ -1,0 +1,21 @@
+button {
+    border-radius: 0.75rem;
+    border: none;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    background-color: #457B9D;
+    color: #FAFAFA;
+    transition: .25s ease-in background-color;
+
+	&:hover {
+		cursor: pointer;
+		background-color: #A8DADC;
+		color: #1D3557;
+	}
+}
+
+.danger-button:hover,
+.danger-button:active {
+    background-color: #E63946;
+    color: #FAFAFA;
+}
